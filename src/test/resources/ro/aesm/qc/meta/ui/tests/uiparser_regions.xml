@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<m:model xmlns:m="https://qc.aesm.ro/meta"
+	xmlns="https://qc.aesm.ro/meta/ui">
+
+	<m:ui name="testRegions">
+
+		<items>
+			<region name="main" layout="tabs" children="r1,r2" />
+
+			<region name="r1" layout="horizontal" children="i1,i2" />
+			<region name="r2" layout="vertical" children="r3" />
+			<region name="r3" layout="grid" children="i3,i4" />
+			<region name="popup" layout="vertical" display="popup" />
+
+
+			<text_field name="i1" />
+			<text_field name="i2" />
+			<text_field name="i3" />
+			<text_field name="i4" />
+			
+		</items>
+
+	</m:ui>
+</m:model>

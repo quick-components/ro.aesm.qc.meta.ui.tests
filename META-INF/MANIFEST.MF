@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: QC user interface meta model tests
+Bundle-SymbolicName: ro.aesm.qc.meta.ui.tests
+Bundle-Version: 0.0.1.qualifier
+Fragment-Host: ro.aesm.qc.meta.ui
+Import-Package: org.osgi.framework;version="1.10.0",
+ org.junit.jupiter.api;version="5.8.0",
+ ro.aesm.qc.api.meta
+Automatic-Module-Name: ro.aesm.qc.meta.ui.tests
+Bundle-RequiredExecutionEnvironment: JavaSE-11
